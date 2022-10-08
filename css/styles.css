@@ -51,7 +51,7 @@
 }
 
 .main-nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 100%;
@@ -107,7 +107,7 @@
 }
 
 .nav-dropdown-link::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 100%;
@@ -163,7 +163,7 @@
   color: #fff;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -177,7 +177,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2)
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
 }
 
 .sticky .section-hero {
@@ -202,7 +202,7 @@
   grid-template-columns: 1fr;
   max-width: 130rem;
   margin: 0 auto;
-  padding: 12.8rem 3.2rem;
+  padding: 16rem 3.2rem;
   align-items: center;
 }
 
@@ -537,7 +537,7 @@
 }
 
 .membership-plan-premium::after {
-  content: 'best value';
+  content: "best value";
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
@@ -728,7 +728,7 @@
       rgba(17, 70, 120, 0.25),
       rgba(65, 107, 147, 0.25)
     ),
-    url('../img/cta.jpg');
+    url("../img/cta.jpg");
   background-size: cover;
   background-position: center;
 }
